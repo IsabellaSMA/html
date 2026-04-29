@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: "Arial,sans-serif;";
+}
+
+.container-topo {
+    display: flex;          /* Ativa o modo flexbox */
+    justify-content: space-between; /* Empurra o texto para a esquerda e a imagem para a direita */
+    padding: 15px;
+
+}
+
+.foto-perfil {
+    width: 150px;       
+    border-radius: 8px;     
+}
+
+.resto{
+    padding: 20px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
+}
