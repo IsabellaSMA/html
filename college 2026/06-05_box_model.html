@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang ="pt-br">
+<head>
+	<meta charset ="UTF-8">
+	<title>Exemplo Box model</title>
+	<style>
+	/*Estilização geral da pagina*/
+		body{
+			font-family:Arial,sans-serif;
+			background color: #f5f5f5;
+			padding:20px;	
+		}
+	/*Estilização do conteiner box-model*/
+		.box{
+			width: 300px;
+			heigth: 150px;
+			background color:#d4eaff;
+
+			padding: 20px;
+			border: 5px solid #0077cc;
+			margin: 30px auto;
+
+			box-shadow: 2px 2px 10px rgba(0,0,0,1);			
+		}
+
+		.explicacao{
+			max-witdh: 600px;
+			margin: auto;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Exemplo de box model</h1>
+	<div class  = "box">
+		<p>Este é um exemplo de caixa com modelo de caixa (box-model)</p>
+	</div>
+
+
+	<div class ="explicacao">
+		<h2>Explicação</h2>
+		<ul>
+			<li><strong>Conteúdo (Content):</strong> o texto dentro da caixa</li>
+			<li><srtong>Preenchimento (Padding):</stong> espaçamento entre o conteúdo e a borda(20px)</li>
+			<li><srtong>Borda (Border):</stong> linha ao redor do conteúdo e padding (5px solida, azul)</li>
+			<li><srtong>Margem (Margin): </stong> espaço externo da caixa (30px acima e abaixo, central)</li>
+		</ul>
+		<p>Todo elemento em HTML pode ser representado como uma caixa composta por essas quatro partes</p>
+	</div>
+</body>
+</html>
